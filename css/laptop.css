@@ -1,0 +1,171 @@
+* {
+    
+    font-family: 'Pontano Sans', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+    color: rgb(39, 35, 35) !important;
+    
+    
+}
+
+p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+li {
+    list-style: none;
+}
+
+
+.sky {
+    color: rgb(162, 157, 228);
+    margin-right: 5px;
+}
+
+
+/* section > .container{
+    width: 1170px;
+    margin: auto;
+    display: block;
+
+    padding: 30px 50px;
+} */
+
+#nav-bar {
+    text-align: center;
+}
+
+#banner {
+    position: relative;
+}
+
+/* banner */
+/* .img-fluid {
+    width: 100%;
+} */
+.profile-name { 
+    color: #f7f7f7;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, 50%);
+}
+
+.profile-detail {
+    display: none;
+}
+
+/* navbar */
+.navbar
+{
+    padding: 0 !important;
+}
+.profile {
+    padding: 0 30px 0 30px;
+}
+
+.profile-img {
+    width: 40px;
+    height: 50px;
+    border : 2px solid #fff;
+    scale: 3;
+}   
+
+.nav-item {
+    padding: 20px;
+}
+
+.dev-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+.dev-lvl {
+    font-size: 12px;
+    color: rgb(110, 110, 110); 
+}
+
+/*end nav-bar */
+
+/* data */
+
+.info {
+    color: rgb(109, 112, 112);
+    margin-bottom: 10px !important;
+}
+
+
+
+
+.contact-icon {
+   padding-left: 1rem;
+   display: flex;
+   gap: 1rem;
+}
+
+
+#target {
+    padding: 50px 10px 50px 50px;
+    margin-bottom: 20px;
+    
+}
+#personal-info {
+    padding: 50px 10px 50px 50px;
+    margin-bottom: 20px;
+}
+
+.job-title {
+    font-size: 30px;
+    font-weight: bolder;
+    flex: 0.75;
+}
+.job-ic {
+    flex: 0.25;
+}
+.favorite {
+    margin: 15px;
+}
+
+.oval-img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.progress-bar {
+    height: 5px;
+    width: 50px;
+}
+.resizer {
+    width: 200px;
+    height: auto;
+}
+.project-data {
+    padding: 0 10px 0 10px;
+}
+
+.project-data > div:first-child {
+    flex: 0.25;
+
+}
+
+.project-data > div:last-child {
+    flex: 0.75;
+
+}
+
+.images-fluid {
+    max-width: 20vw !important;
+    
+}
+
+#cert-info {
+   margin-bottom: 40px!important;
+   
+    
+}
+
+
+

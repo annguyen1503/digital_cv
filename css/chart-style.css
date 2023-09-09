@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Pontano Sans', sans-serif;
+}
+
+p {
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-bottom: 10px !important;
+}
+
+h3 {
+    color: green!important;
+}
+.goal { 
+    padding: 5px 1vw 5px 2vw;
+    
+}
+
+
+.time-line-order {
+    height: 20px;
+    width: 20px;
+    padding: 20px;
+    background-color: aqua;
+    text-align: center;
+    border: 2px solid darkcyan;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline {
+    padding: 0 5px 20px 5px;
+    margin-top: 5px !;
+    
+}
+
+.timeline > div:last-child {
+    border-bottom: 1px dashed #759ed3;
+    width: 100%;
+}
+
+.project-chart {
+
+    border: 10px solid green;
+    box-shadow: 10px 10px 10px;
+}
+
+.box {
+    border: 5px solid green;
+}
+
+
+
